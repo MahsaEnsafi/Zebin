@@ -1,0 +1,27 @@
+# --- Front (Vite) ---
+front/node_modules/
+front/dist/
+front/.vite/
+front/*.log
+front/.env
+front/.env.local
+
+# --- Backend (FastAPI) ---
+back/venv/
+back/.venv/
+back/__pycache__/
+back/*.py[cod]
+back/*.egg-info/
+back/.mypy_cache/
+back/.pytest_cache/
+back/zebin.db
+back/uploads/
+
+# --- Root ---
+node_modules/
+dist/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
+.env
